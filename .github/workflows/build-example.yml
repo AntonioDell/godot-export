@@ -23,7 +23,7 @@ jobs:
           echo "WINE_PATH=$(which wine64)" >> $GITHUB_OUTPUT
       - name: export game
         id: export
-        uses: AntonioDell/godot-export@78873604237d44dd6803cea6415595f6a3e69840
+        uses: AntonioDell/godot-export@2bf5d44733dda999d65f0c2248b55ed52403b833
         with:
             godot_executable_download_url: https://downloads.tuxfamily.org/godotengine/4.0/beta5/Godot_v4.0-beta5_linux.x86_64.zip
             godot_export_templates_download_url: https://downloads.tuxfamily.org/godotengine/4.0/beta5/Godot_v4.0-beta5_export_templates.tpz
